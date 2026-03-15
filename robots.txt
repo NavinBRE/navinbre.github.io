@@ -1,4 +1,29 @@
-User-agent: *
+# robots.txt for navinbhutani.com
+# Allows Google, Bing, and major AI search platforms.
+# Blocks all other crawlers and scrapers.
+
+# --- Google ---
+User-agent: Googlebot
 Allow: /
+
+# --- Bing / Microsoft Copilot ---
+User-agent: Bingbot
+Allow: /
+
+# --- OpenAI / ChatGPT ---
+User-agent: GPTBot
+Allow: /
+
+# --- Anthropic / Claude ---
+User-agent: ClaudeBot
+Allow: /
+
+# --- Perplexity AI ---
+User-agent: PerplexityBot
+Allow: /
+
+# --- Block all other crawlers ---
+User-agent: *
+Disallow: /
 
 Sitemap: https://www.navinbhutani.com/sitemap.xml
